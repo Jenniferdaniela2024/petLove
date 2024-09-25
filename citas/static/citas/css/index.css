@@ -1,0 +1,29 @@
+.inicio{
+    background-color: #8967B3;
+}
+
+aside{
+  
+    width: 450px;
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+    box-sizing: border-box;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  
+}
+.carousel {
+    width: 580px;
+    margin-left: 440px;
+    margin-top: -120%;
+  
+   
+}
+    .imagenes{
+        border-radius: 30px;
+        width: 150px;
+        height: 200px;
+    }
+

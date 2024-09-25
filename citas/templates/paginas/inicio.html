@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% load static %}    
+{% block titulo %}  PetLove {% endblock %}
+{% block contenido %}  
+
+<div class="inicio">
+<h3 style="margin-left: 20px; color:white;" >Cuida de tus mascotas<br> con <strong style="color:#FF7D29">Petlove</strong> <img src="{% static 'citas/img/logo.png' %}" width="40px" style="border-radius: 10px;"></h3><br>
+      <p class="" style="color:white; margin-left: 20px;">Bienvenido a PetLove, tu veterinaria de confianza<br> 
+         en Petlove, nos dedicamos a proporcionar a dueños<br> de mascotas como tú 
+         un buen trato, servicio y productos de calidad pra <br> amigos peludos felices y saludables
+          Nuestra aplicación innovadora<br> combina funcionalidades esenciales que facilitan
+           la vida de los <br>amantes de las mascotas.</p>
+           <h4 style="margin-left: 20px; color:white;">Disponible para decargar:</h4><br>
+           <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-primary1" style="color: grey; background-color: white;  border-radius: 6px; border-color: white; margin-left: 20px;"type="button" ><img src="{% static 'citas/img/google.webp' %}" style="width: 15px;"> GOOGLE PLAY</button>
+            <button class="btn btn-primary" style="color: grey; background-color: white; border-radius: 6px; border-color: white; margin-left: 20px;"type="button" ><img src="{% static 'citas/img/apple.png' %}"  style="width: 15px;">  Apple Store</button>
+          </div>
+      <img src="{% static 'citas/img/perro.png' %}" style ="width: 250px; margin-left: 610px; margin-top: -330px;">
+      <img src="{% static 'citas/img/gato.png' %}"  style ="width: 300px; margin-left: 730px; margin-top: -290px;" >
+        </div> 
+    </div>
+<aside>
+    <div class="tips">
+        <p><h3>Recomendaciones Diarias 🌞 </h3>
+            -----------------------------------------------------------------<br>
+           <strong>1. Urgencias ❌</strong> <br>
+            Si tu mascota tiene una urgencia, es importante actuar rápidamente. Aquí hay algunas recomendaciones:<br>
+            <br>
+            -Identifica el problema: Observa si tu mascota presenta síntomas como dificultad para respirar, vómitos, diarrea, letargo extremo, o si ha tenido un accidente.
+            <br><br>
+            -Mantén la calma: Tu mascota puede sentir tu estrés. Habla con calma y trata de tranquilizarla.
+            <br><br>
+           <h5>Recomendación de Dieta 🌞</h5><br>
+           <strong> Dieta 🥩</strong><br>
+           - Consulta con el veterinario: Antes de hacer cambios en la dieta, habla con un veterinario para obtener recomendaciones específicas para la raza, edad y necesidades de salud de tu mascota.
+            <br><br>
+            -Alimento balanceado: Opta por alimentos comerciales de buena calidad que sean específicos para la especie y edad de tu mascota.
+            <br><br>
+           -Hidratación: Siempre proporciona agua fresca y limpia.
+           <br><br>
+           -Porciones adecuadas: Sigue las recomendaciones de la etiqueta del alimento o del veterinario sobre la cantidad de comida.
+            <br><br>
+            <h5>Recomendación de Rutina 🌞</h5><br>
+            <strong>Rutina 🐶✔</strong><br>
+            -Ejercicio diario: Asegúrate de que tu mascota tenga suficiente ejercicio diario. Esto puede incluir paseos, juegos interactivos o tiempo de juego en casa.
+            <br><br>
+            -Horario de comidas: Establece un horario regular para las comidas. Esto ayuda a regular su digestión y reduce el riesgo de obesidad.
+            <br><br>
+           -Visitas al veterinario: Programa revisiones regulares con el veterinario para chequeos de salud, vacunaciones y prevención de parásitos.    
+           <br><br>
+           -Socializacion: Permite que tu mascota socialice con otros animales y personas, lo que es crucial para su bienestar emocional
+          </div>
+</aside>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static 'citas/img/imagen 3.jpg' %}" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'citas/img/imagen2.jpg' %}" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'citas/img/piggy.jpg' %}" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'citas/img/hamster.jpg' %}" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button><br><br><br>
+      
+        <strong><h4 style="color:#FF7D29;">En veterinaria Petlove encuentras profesionales en:</h4></strong><br>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'citas/img/veterinaria.webp' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"><strong>Veterinarios profesionales y auxiliares 👨‍⚕️<br></strong>
+            Dispuestos a cuidar, revisar y evaluar la salud de tus mascotas.</p>
+        </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'citas/img/peluqueros.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"><strong>Estilistas de mascotas 👩‍💼<br></strong>
+            Personas dedicadas a bañar y acicalar a todas las mascotas.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'citas/img/nutricionista.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"><strong>Especialistas en nutrición 🥗<br></strong>
+            Asesores en alimentación balanceada para tus mascotas.</p>
+        </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'citas/img/entrenadires.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"><strong>Entrenadores de mascotas 🐾<br></strong>
+            Expertos en comportamiento y entrenamiento para una buena convivencia.</p>
+        </div>
+    </div>
+</div>
+    </div>
+   {% endblock %}
+  
